@@ -3,7 +3,7 @@
 A high-end, responsive web showcase designed for urban fashion brands. This project focuses on high-impact visual storytelling, seamless navigation, and a direct lead-capture system.
 
 ## 🚀 Live Demo
-[Link to your GitHub Pages or Vercel demo]
+[(https://ricardo-005.github.io/urban-streetwear-catalog-js/)]
 
 ## ✨ Key Features
 *   *Curated Product Gallery:* A clean and stylish catalog layout designed to highlight apparel details.
