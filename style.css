@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap');
+
+body {
+    background: radial-gradient(circle at center, #1a1a1a 0%, #0a0a0a 100%);
+    color: white;
+    font-family: 'Inter', sans-serif; /* Fuente más moderna */
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+.logo {
+    font-weight: 900;
+    letter-spacing: 3px;
+    color: #ff0055;
+    border: 2px solid #ff0055;
+    padding: 5px 15px;
+}
+
+header {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Esto centra el contenido verticalmente */
+    align-items: center;     /* Esto centra el contenido horizontalmente */
+    text-align: center;
+}
+
+h1 {
+    font-size: 100px; /* Tamaño gigante para impacto */
+    margin: 0;
+    line-height: 0.8;
+    text-transform: uppercase;
+    opacity: 0; /* Para el efecto de JavaScript */
+    transform: translateY(30px);
+    transition: all 1s ease;
+}
+
+h1 span {
+    color: transparent;
+    -webkit-text-stroke: 2px white; /* Efecto de texto hueco */
+}
+
+button {
+    margin-top: 40px;
+    background: #ff0055;
+    color: white;
+    border: none;
+    padding: 15px 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    box-shadow: 0 0 20px rgba(255, 0, 85, 0.4);
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 40px rgba(255, 0, 85, 0.7);
+}
+.contact {
+    padding: 100px 50px;
+    background: #0a0a0a;
+}
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.contact input, .contact textarea {
+    background: #1a1a1a;
+    border: 1px solid #333;
+    padding: 15px;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+.contact input:focus {
+    border-color: #ff0055;
+    outline: none;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+    flex-wrap: wrap; /* Para que si no caben, bajen ordenadamente */
+}
+
+.product-card {
+    background: #111;
+    width: 300px; /* Tamaño fijo para que no crezcan de más */
+    border: 1px solid #333;
+    border-radius: 10px; /* Bordes redondeados para un look moderno */
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.product-img {
+    width: 100%;
+    height: 350px; /* Altura fija para que todas las fotos se alineen */
+    overflow: hidden;
+}
+
+.product-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Esto es lo que evita que se vea estirado */
+}
+
+/* Para que el nombre y precio se vean claros */
+.product-card p {
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+    font-weight: bold;
+}
+
+.product-name { color: #ff0055; font-size: 0.9rem; }
+.product-price { font-size: 1.2rem; color: white; padding-bottom: 20px !important; }
+
+/* Para la imagen de fondo principal */
+header {
+    background-image: url('tu-imagen.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
