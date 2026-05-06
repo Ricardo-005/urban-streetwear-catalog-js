@@ -23,4 +23,4 @@ The code is organized for scalability:
 - /js: Logic for the catalog and contact form.
 
 ## 📩 Hire Me
-Interested in a custom catalog or e-commerce site for your brand? Let's connect on [Upwork]([(https://www.upwork.com/freelancers/~01b886fae355553628?companyReference=2047477432136778329&mp_source=share)](https://www.upwork.com/freelancers/~01b886fae355553628?companyReference=2047477432136778329&mp_source=share)).
+Interested in a custom catalog or e-commerce site for your brand? Let's connect on [Upwork](https://www.upwork.com/freelancers/~01b886fae355553628?companyReference=2047477432136778329&mp_source=share).
